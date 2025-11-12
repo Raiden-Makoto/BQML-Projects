@@ -8,5 +8,5 @@ Simple exploratory dataset analysis practice using Python and BigQuery SQL on th
 Familiarized myself with the BigQuery Web UI and basic processes like creating datasets, cloning datasets, and simple IAM
 
 ### Penguins
-Introductory BQML project: simple regression using BigQuery ML, BigQuery DataFrames and Looker Studio.
+Introductory BQML project: simple regression using BigQuery ML, BigQuery SQL and Looker Studio.
 Predicting the mass of penguins based on data such as species, sex, flipper length, and geographic location.
