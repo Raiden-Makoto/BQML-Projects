@@ -50,3 +50,10 @@ Google Skills Course project analyzing NCAA basketball data and building predict
 - Achieved ~70% accuracy on 2018 tournament predictions (38 incorrect predictions out of 134 total)
 - Analyzed model weights to understand feature importance (seed rankings and school names)
 - Performed diagnostic analysis on high-confidence incorrect predictions to identify model weaknesses
+
+## Subway GIS
+Learning Google BigQuery GIS by querying the `new_york_subway` public dataset.
+- Profiled the `stations` table schema, surfaced unique line names, and summarized station counts by borough.
+- Built proximity searches with `ST_DISTANCE` + `ST_GEOGPOINT` to rank stops closest to 23 Cornelia Street.
+- Used `ST_WITHIN` to join station points to borough polygons and explore neighborhood coverage.
+- Clustered dense corridors with `ST_CLUSTERDBSCAN` and outlined them via `ST_CONVEXHULL` for quick mapping prototypes.
